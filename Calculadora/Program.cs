@@ -72,7 +72,7 @@ namespace NovoProjeto
                 int n2 = int.Parse(Console.ReadLine());
 
                 int resultado = n1 - n2;
-                Console.WriteLine("O resultado da soma foi:" + resultado);
+                Console.WriteLine("O resultado da subtração foi:" + resultado);
                 Console.WriteLine("Aperte ENTER para voltar ao menu");
                 Console.ReadLine();
             }
@@ -85,7 +85,7 @@ namespace NovoProjeto
                 int n2 = int.Parse(Console.ReadLine());
 
                 float resultado = (float)n1 / (float)n2;
-                Console.WriteLine("O resultado da soma foi:" + resultado);
+                Console.WriteLine("O resultado da divisão foi:" + resultado);
                 Console.WriteLine("Aperte ENTER para voltar ao menu");
                 Console.ReadLine();
             }
@@ -98,7 +98,7 @@ namespace NovoProjeto
                 int n2 = int.Parse(Console.ReadLine());
 
                 int resultado = n1 * n2;
-                Console.WriteLine("O resultado da soma foi:" + resultado);
+                Console.WriteLine("O resultado da multiplicação foi:" + resultado);
                 Console.WriteLine("Aperte ENTER para voltar ao menu");
                 Console.ReadLine();
             }
@@ -111,7 +111,7 @@ namespace NovoProjeto
                 int expoente = int.Parse(Console.ReadLine());
 
                 double resultado = Math.Pow(baseNum, expoente);
-                Console.WriteLine("O resultado da soma foi:" + resultado);
+                Console.WriteLine("A potência é:" + resultado);
                 Console.WriteLine("Aperte ENTER para voltar ao menu");
                 Console.ReadLine();
             }
@@ -122,7 +122,7 @@ namespace NovoProjeto
                 int raiz = int.Parse(Console.ReadLine());
 
                 double resultado = Math.Sqrt(raiz);
-                Console.WriteLine("O resultado da soma foi:" + resultado);
+                Console.WriteLine("A raiz é:" + resultado);
                 Console.WriteLine("Aperte ENTER para voltar ao menu");
                 Console.ReadLine();
             }
